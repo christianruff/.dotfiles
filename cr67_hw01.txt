@@ -1,0 +1,14 @@
+mkdir .dotfiles
+ls -a
+cd .dotfiles/
+touch README.md
+vim README.md
+cat README.md
+nano .nanorc
+cp .nanorc ~/.nanorc
+git init
+git add --all
+git commit -m "INIT commit"
+git branch -M main
+git remote add origin git@github.com:christianruff/.dotfiles
+git push -u origin main
